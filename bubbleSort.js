@@ -13,6 +13,4 @@ function numbers(num) {
     return num;
 }
 
-console.log("قبل الترتيب:", num);
-numbers(num);
-console.log("بعد الترتيب:", num);
+module.exports = numbers; // مع افتراض أن اسم دالتك هو numbers
